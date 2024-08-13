@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * task controller
+ * category controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::task.task');
+module.exports = createCoreController('api::category.category');

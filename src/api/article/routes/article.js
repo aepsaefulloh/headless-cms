@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * task router
+ * article router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::task.task');
+module.exports = createCoreRouter('api::article.article');
