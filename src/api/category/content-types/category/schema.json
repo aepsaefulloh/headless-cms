@@ -12,7 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
+      "type": "string"
+    },
+    "Type": {
       "type": "string"
     }
   }
